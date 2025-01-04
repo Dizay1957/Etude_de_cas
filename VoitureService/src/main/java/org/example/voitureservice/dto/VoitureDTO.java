@@ -6,7 +6,6 @@ public class VoitureDTO {
     private String modele;
     private Integer annee;
 
-    // Constructeurs
     public VoitureDTO() {}
 
     public VoitureDTO(Long id, String marque, String modele, Integer annee) {
@@ -16,7 +15,6 @@ public class VoitureDTO {
         this.annee = annee;
     }
 
-    // Getters et Setters
     public Long getId() {
         return id;
     }

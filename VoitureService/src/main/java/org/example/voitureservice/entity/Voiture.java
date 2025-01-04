@@ -18,17 +18,14 @@ public class Voiture implements Serializable {
     private String modele;
     private Integer annee;
 
-    // Constructeur par défaut (requis pour JPA)
     public Voiture() {}
 
-    // Constructeur avec arguments
     public Voiture(String marque, String modele, Integer annee) {
         this.marque = marque;
         this.modele = modele;
         this.annee = annee;
     }
 
-    // Getters et Setters
     public Long getId() {
         return id;
     }

@@ -13,17 +13,14 @@ public class Client {
     private String name;
     private String email;
 
-    // Constructeur par défaut (obligatoire pour JPA)
     public Client() {
     }
 
-    // Constructeur avec arguments
     public Client(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
-    // Getters et Setters
     public Long getId() {
         return id;
     }
